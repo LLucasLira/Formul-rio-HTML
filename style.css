@@ -1,0 +1,92 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Título do formulário */
+.form-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do cartão */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Estilo do cabeçalho do cartão */
+.card-header {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Estilo do corpo do cartão */
+.card-body {
+    background-color: #ffffff;
+}
+
+/* Estilo dos campos de formulário */
+.form-group label {
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Botões */
+.btn-custom {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-clear {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-submit {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Layout da imagem do perfil */
+.img-fluid {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Estilo dos itens dentro do formulário */
+.form-row {
+    margin-bottom: 15px;
+}
+
+/* Rodapé do formulário */
+.card-footer {
+    text-align: center;
+    font-size: 14px;
+}
